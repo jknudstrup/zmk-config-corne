@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         LeftDel {
-            bindings = <&kp DEL>;
+            bindings = <&kp DELETE>;
             key-positions = <16 15>;
         };
 
