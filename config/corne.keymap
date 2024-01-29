@@ -110,10 +110,10 @@
 
         Remaining {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp CARET  &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PIPE   &kp AT_SIGN     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp BSLH   &kp UNDERSCORE  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans     &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp CARET             &trans          &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PIPE              &kp AT_SIGN     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans                &trans
             >;
         };
     };
