@@ -129,10 +129,10 @@
 
         Navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp TAB   &kp TAB        &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp RET   &kp PAGE_DOWN  &kp PAGE_UP  &trans  &trans
-                        &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(LC(TAB))  &kp TAB   &kp TAB        &kp RC(TAB)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT         &kp DOWN  &kp UP         &kp RIGHT    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans           &kp RET   &kp PAGE_DOWN  &kp PAGE_UP  &trans  &trans
+                        &trans  &trans  &trans    &trans           &trans    &trans
             >;
         };
 
