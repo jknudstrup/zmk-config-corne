@@ -63,7 +63,7 @@
 &kp TAB    &hml 10 10  &kp ESC   &kp N3    &kp N4    &kp N5       &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
 &kp ESC    &hml 8 8    &hml 5 5  &hml 4 4  &hml 3 3  &kp ESC      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
 &kp LCTRL  &hml 9 9    &kp ESC   &hml 7 7  &hml 6 6  &trans       &trans    &trans    &trans    &trans     &trans  &kp CAPS
-                                 &kp LGUI  &trans    &kp SPACE    &kp RET   &trans    &kp RALT
+                                 &kp LGUI  &trans    &kp SPACE    &kp RET   &to 0     &kp RALT
             >;
         };
 
