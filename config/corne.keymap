@@ -129,17 +129,17 @@
 
         Navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(LC(TAB))  &kp TAB                 &kp TAB  &kp RC(TAB)        &kp PAGE_UP    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT         &kp DOWN                &kp UP   &kp RIGHT          &kp PAGE_DOWN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans           &kp LG(LA(LEFT_ARROW))  &trans   &kp RG(RA(RIGHT))  &trans         &trans
-                        &trans  &trans  &trans    &trans           &trans                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(NUMBER_1)  &kp LS(LC(TAB))         &kp TAB  &kp RC(TAB)        &kp PAGE_UP    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT          &kp DOWN                &kp UP   &kp RIGHT          &kp PAGE_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(NUMBER_2)  &kp LG(LA(LEFT_ARROW))  &trans   &kp RG(RA(RIGHT))  &trans         &trans
+                        &trans  &trans  &trans    &trans            &trans                  &trans
             >;
         };
 
         vscode_vim {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LG(B)      &kp LS(LG(P))  &kp LG(P)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LC(GRAVE)  &search_init   &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LC(GRAVE)  &search_init   &kp RA(D)  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans         &trans         &trans     &trans  &trans  &trans
                         &trans  &trans  &trans    &trans         &trans         &trans
             >;
