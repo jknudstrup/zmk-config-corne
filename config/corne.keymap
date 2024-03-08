@@ -22,6 +22,16 @@
             tapping-term-ms = <50>;
             retro-tap;
         };
+
+        skquick: skquick {
+            compatible = "zmk,behavior-sticky-key";
+            label = "SKQUICK";
+            bindings = <&sk>;
+            #binding-cells = <1>;
+            release-after-ms = <2000>;
+            quick-release;
+            ignore-modifiers;
+        };
     };
 
     macros {
@@ -45,10 +55,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &lt 10 Q  &kp W    &kp E     &kp R      &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp ESC    &lt 8 A   &lt 5 S  &lt 4 D   &lt 3 F    &kp G        &kp H    &kp J  &kp K      &kp L    &kp SQT   &caps_word
-&sk LCTRL  &lt 9 Z   &kp X    &lt 7 C   &lt 6 V    &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &sk RGUI  &sk RCTRL
-                              &sk LGUI  &sk LSHFT  &kp SPACE    &kp RET  &sl 1  &sk RALT
+&kp TAB    &lt 10 Q  &kp W    &kp E     &kp R                &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp ESC    &lt 8 A   &lt 5 S  &lt 4 D   &lt 3 F              &kp G        &kp H    &kp J  &kp K      &kp L    &kp SQT   &caps_word
+&sk LCTRL  &lt 9 Z   &kp X    &lt 7 C   &lt 6 V              &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &sk RGUI  &sk RCTRL
+                              &sk LGUI  &skquick LEFT_SHIFT  &kp SPACE    &kp RET  &sl 1  &sk RALT
             >;
         };
 
