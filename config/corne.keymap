@@ -139,9 +139,9 @@
 
         Navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(NUMBER_1)  &kp LC(LEFT_ARROW)      &kp LA(R)  &kp RC(RIGHT)      &kp PAGE_UP    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT          &kp DOWN                &kp UP     &kp RIGHT          &kp PAGE_DOWN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(NUMBER_2)  &kp LG(LA(LEFT_ARROW))  &trans     &kp RG(RA(RIGHT))  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(NUMBER_1)  &kp LC(LEFT_ARROW)      &kp LC(UP_ARROW)  &kp RC(RIGHT)      &kp PAGE_UP    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT          &kp DOWN                &kp UP            &kp RIGHT          &kp PAGE_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(NUMBER_2)  &kp LG(LA(LEFT_ARROW))  &kp LC(DOWN)      &kp RG(RA(RIGHT))  &trans         &trans
                         &trans  &trans  &trans    &trans            &trans                  &trans
             >;
         };
