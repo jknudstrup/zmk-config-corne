@@ -35,12 +35,11 @@
     };
 
     macros {
-        search_init: toggle_sidebar {
+        global_search: global_search {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp COLON &kp PRCNT &kp S &kp FSLH>;
-
-            label = "TOGGLE_SIDEBAR";
+            bindings = <&none &kp COLON &kp PRCNT &kp S &kp FSLH>;
+            label = "GLOBAL_SEARCH";
         };
     };
 
@@ -166,10 +165,10 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &global_search  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans          &trans  &trans
             >;
         };
     };
