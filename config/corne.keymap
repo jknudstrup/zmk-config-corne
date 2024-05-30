@@ -139,7 +139,7 @@
         Navigation {
             bindings = <
 &trans  &trans  &trans       &trans  &trans   &trans    &kp LG(NUMBER_1)  &kp LC(LEFT_ARROW)      &kp LC(UP_ARROW)  &kp RC(RIGHT)      &kp PAGE_UP    &trans
-&trans  &trans  &kp LS(TAB)  &trans  &kp TAB  &trans    &kp LEFT          &kp DOWN                &kp UP            &kp RIGHT          &kp PAGE_DOWN  &trans
+&trans  &trans  &kp LS(TAB)  &trans  &kp TAB  &trans    &kp LEFT          &kp DOWN                &kp UP            &kp RIGHT          &kp PAGE_DOWN  &kp LG(LA(C))
 &trans  &trans  &trans       &trans  &trans   &trans    &kp LG(NUMBER_2)  &kp LG(LA(LEFT_ARROW))  &kp LC(DOWN)      &kp RG(RA(RIGHT))  &kp RG(RA(I))  &trans
                              &trans  &trans   &trans    &trans            &trans                  &trans
             >;
@@ -147,8 +147,8 @@
 
         vscode {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(LS(E))  &kp LS(LG(P))  &kp LG(P)  &trans             &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LC(GRAVE)  &kp LA(R)      &kp RA(D)  &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(LS(E))  &kp LS(LG(P))  &kp LG(P)  &kp LS(LG(F))      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LC(GRAVE)  &kp LA(R)      &kp RA(D)  &kp LS(LG(H))      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LG(B)      &trans         &trans     &kp RC(RG(SPACE))  &trans  &trans
                         &trans  &trans  &trans    &trans         &trans         &trans
             >;
