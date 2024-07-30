@@ -147,9 +147,9 @@
 
         vscode {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(LS(E))  &kp LS(LG(P))  &kp LG(P)  &kp LS(LG(F))      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LC(GRAVE)  &kp LA(R)      &kp RA(D)  &kp LS(LG(H))      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(B)      &trans         &trans     &kp RC(RG(SPACE))  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(LS(E))  &kp LS(LG(P))  &kp LG(P)  &kp LS(LG(F))      &kp LS(LG(D))          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LC(GRAVE)  &kp LA(R)      &kp RA(D)  &kp LS(LG(H))      &kp LS(LA(LC(LG(D))))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(B)      &trans         &trans     &kp RC(RG(SPACE))  &kp LS(LA(LC(LG(S))))  &trans
                         &trans  &trans  &trans    &trans         &trans         &trans
             >;
         };
