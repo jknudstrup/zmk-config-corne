@@ -129,7 +129,7 @@
 
         Remaining {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp CARET      &trans          &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp CARET      &caps_word      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PIPE       &kp AT_SIGN     &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp BACKSLASH  &kp UNDERSCORE  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans         &trans
