@@ -153,10 +153,10 @@
 
         Funky_Funcs {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_REWIND          &kp C_PLAY           &kp C_FAST_FORWARD  &kp C_VOLUME_UP    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(SPACE)         &kp C_VOICE_COMMAND  &kp C_POWER         &kp K_VOLUME_DOWN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC        &kp LC(UP_ARROW)    &kp K_MUTE         &trans
-                        &trans  &trans  &trans    &trans  &trans                &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_REWIND   &kp C_PLAY           &kp C_FAST_FORWARD  &kp C_VOLUME_UP    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(SPACE)  &kp C_VOICE_COMMAND  &kp C_POWER         &kp K_VOLUME_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_BRI_DEC  &kp C_BRI_UP         &kp LC(UP_ARROW)    &kp K_MUTE         &trans
+                        &trans  &trans  &trans    &trans  &trans         &trans
             >;
         };
     };
